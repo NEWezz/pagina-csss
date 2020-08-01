@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+body{
+    background: lightgray;
+}
+#container{
+    width: 1700px;
+    height: 1150px;
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+#header{
+    height: 100px;
+    background: rgb(1, 30, 124);
+    border-bottom: 3px dashed rgba(124, 117, 117, 0.424);
+    text-shadow: 1px 0px 10px blue;
+}
+#header h1{
+    text-align: center;
+    color:white;
+    line-height: 100px;
+    font-size: 60px;
+    
+}
+ #menu ul{
+   width: 100%;
+   height: 50px;
+    background-color: rgb(12, 12, 12);
+    border-bottom: 3px dashed rgba(124, 117, 117, 0.424);
+ }
+
+nav ul li{
+    float: left;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 47, 255);
+    text-decoration: none;
+}
+
+
+.clear{
+    clear: both;
+}
+
+#section{
+    width: 80%;
+    height: 953px;
+    background: rgb(0, 47, 255);
+    float: left;
+}
+.article{
+    margin: 10px;
+}
+.article p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    
+}
+.article img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.article h2{
+    color:white;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+    border-radius: 50px;
+}
+.article .p{
+    color:white;
+    text-shadow: 0px 0px 10px black;
+}
+.d h3 {
+    color: white;
+    margin-top: 10px;
+}
+.d ul li {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+#lateral{
+    float: left;
+    background: black;
+    height: 951px;
+    border: 1px solid black;
+    padding-right: 96px;
+    
+   
+}
+#lateral h2 {
+    color: white;
+    margin: 5px;
+}
+#lateral [type="submit"]{
+    width:50px;
+    background-color: red;
+    color: white;
+    border: 5px solid red;
+    box-shadow: 0px 0px 5px black;
+    
+}
+#lateral p {
+    width: 228px;
+    height: 530px;
+    border: 1px solid red;
+    margin-left:12px;
+    overflow: scroll;
+    color: white;
+}
+
+footer{
+    width: 1700px;
+    height: 40px;
+    text-align: center;
+    margin-top: 2px;
+    border: 1px solid black;
+    line-height: 40px;
+    color: white;
+    background-color: black;
+}
+
+.udemy{
+    position: fixed;
+    top: 0;
+    right: 89%;
+}
